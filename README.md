@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class SumSeries {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -10,8 +11,8 @@ public class SumSeries {
             int num = Integer.parseInt(i + "" + i);
             sum += num;
         }
+
         System.out.println("Tổng S = " + sum);
         scanner.close();
     }
 }
-
